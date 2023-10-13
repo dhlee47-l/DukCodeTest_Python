@@ -6,10 +6,10 @@ def solution(n):
         return -1
 
 
-print("입출력 예#1")
+print("입출력 예 #1")
 n1 = 121
 print(f"n={n1}, return {solution(n1)}")
 
-print("입출력 예#2")
+print("입출력 예 #2")
 n2 = 3
 print(f"n={n2}, return {solution(n2)}")
