@@ -1,0 +1,10 @@
+def solution(s):
+	answer=[]
+	dic={} #dictionary define해주기
+	for i in range(len(s)):
+		if s[i] not in dic:
+			answer.append(-1)
+		else:
+			answer.append(i-dic[s[i]]) #지금 index-이전의 것 index
+		dic[s[i]]=i #dic 지금의 index로 업데이트
+	return answer
