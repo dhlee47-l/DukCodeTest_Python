@@ -1,0 +1,9 @@
+def solution(arr):
+    if 2 not in arr:
+        return [-1] #arr에 2가 없는 경우 [-1]을 return
+    start = arr.index(2)
+    end = start #end도 start와 같이 arr.index(2)의 자격을 줌
+    for i in range(start + 1, len(arr)):
+        if arr[i] == 2:
+            end = i
+    return arr[start:end + 1]
