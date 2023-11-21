@@ -6,3 +6,6 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+#삼성 코테 문제 gitignore
+/DukCodeTest_Python/Week03_chy/1119
